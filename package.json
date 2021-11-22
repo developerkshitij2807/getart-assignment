@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  },
+  "name": "getart-mern-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "author": "Kshitij",
+  "license": "ISC",
+  "description": ""
+}
